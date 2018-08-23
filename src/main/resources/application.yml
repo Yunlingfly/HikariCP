@@ -8,7 +8,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     username: root
     password: root
-    url: jdbc:mysql://192.168.99.100:3406/persontest?useSSL=false&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/persontest?useSSL=false&characterEncoding=utf8
     hikari:
       # 是否自动提交
       auto-commit: true
